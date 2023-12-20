@@ -287,123 +287,112 @@ body {
 
 /* Media Query for responsiveness */
 @media screen and (max-width: 768px) {
-    .hd1,
-    .logo1,
-    .searchBox,
-    .navLinks,
-    .logo2,
-    .Links,
-    .imgs,
-    .p1,
-    .btnContainer,
-    .ShopNowButton,
-    .FeaturedContainer,
-    .FeaturedItems,
-    .FeaturedShoes,
-    .UserContainer,
-    .UserItems,
-    .UserImg,
-    .FooterItems,
-    .Footer1,
-    .MoreLinks,
-    .Footer2,
-    .FooterImage,
-    .Fb,
-    .Insta,
-    .Twitter,
-    .Footerlogo,
-    .Sitelogo {
+    .hd1, .logo1, .searchBox, .navLinks, .logo2, .Links, .imgs, .p1, .btnContainer, .ShopNowButton, .FeaturedContainer, .FeaturedItems, .FeaturedShoes, .UserContainer, .UserItems, .UserImg, .FooterItems, .Footer1, .MoreLinks, .Footer2, .FooterImage, .Fb, .Insta, .Twitter, .Footerlogo, .Sitelogo {
         width: 100%;
         left: 0;
         margin-left: 0;
         text-align: center;
     }
 
-    .hd1,
-    .logo1,
-    .searchBox,
-    .navLinks,
-    .logo2,
-    .Links,
-    .imgs,
-    .p1,
-    .btnContainer,
-    .ShopNowButton,
-    .FeaturedContainer,
-    .FeaturedItems,
-    .FeaturedShoes,
-    .UserContainer,
-    .UserItems,
-    .UserImg,
-    .FooterItems,
-    .Footer1,
-    .MoreLinks,
-    .Footer2,
-    .FooterImage,
-    .Fb,
-    .Insta,
-    .Twitter,
-    .Footerlogo,
-    .Sitelogo {
+    .hd1, .logo1, .searchBox, .navLinks, .logo2, .Links, .imgs, .p1, .btnContainer, .ShopNowButton, .FeaturedContainer, .FeaturedItems, .FeaturedShoes, .UserContainer, .UserItems, .UserImg, .FooterItems, .Footer1, .MoreLinks, .Footer2, .FooterImage, .Fb, .Insta, .Twitter, .Footerlogo, .Sitelogo 
+    {
         position: relative;
     }
 
-    .hd1,
-    .logo1,
-    .searchBox,
-    .navLinks,
-    .logo2,
-    .Links,
-    .imgs,
-    .p1,
-    .btnContainer,
-    .ShopNowButton,
-    .FeaturedContainer,
-    .FeaturedItems,
-    .FeaturedShoes,
-    .UserContainer,
-    .UserItems,
-    .UserImg,
-    .FooterItems,
-    .Footer1,
-    .MoreLinks,
-    .Footer2,
-    .FooterImage,
-    .Fb,
-    .Insta,
-    .Twitter,
-    .Footerlogo,
-    .Sitelogo {
+    .hd1, .logo1, .searchBox, .navLinks, .logo2, .Links, .imgs, .p1, .btnContainer, .ShopNowButton, .FeaturedContainer, .FeaturedItems, .FeaturedShoes, .UserContainer, .UserItems, .UserImg, .FooterItems, .Footer1, .MoreLinks, .Footer2, .FooterImage, .Fb, .Insta, .Twitter, .Footerlogo, .Sitelogo
+    {
         padding: 10px;
     }
 
-    .hd1,
-    .logo1,
-    .searchBox,
-    .navLinks,
-    .logo2,
-    .Links,
-    .imgs,
-    .p1,
-    .btnContainer,
-    .ShopNowButton,
-    .FeaturedContainer,
-    .FeaturedItems,
-    .FeaturedShoes,
-    .UserContainer,
-    .UserItems,
-    .UserImg,
-    .FooterItems,
-    .Footer1,
-    .MoreLinks,
-    .Footer2,
-    .FooterImage,
-    .Fb,
-    .Insta,
-    .Twitter,
-    .Footerlogo,
-    .Sitelogo {
+    .hd1, .logo1, .searchBox, .navLinks, .logo2, .Links, .imgs, .p1, .btnContainer, .ShopNowButton, .FeaturedContainer, .FeaturedItems, .FeaturedShoes, .UserContainer, .UserItems, .UserImg, .FooterItems, .Footer1, .MoreLinks, .Footer2, .FooterImage, .Fb, .Insta, .Twitter, .Footerlogo, .Sitelogo 
+    {
         top: 0;
         margin-top: 0;
     }
+    .hd1
+    {
+        margin-left: 20%;
+    }
+    .logo1
+    {
+        margin-top: -13%;
+        margin-left: 60%;
+        width: 100px;
+    }
+    .navLinks
+    {
+        margin: -10%;
+    }
+    .Links
+    {
+        word-spacing: 15px;
+    }
+    .logo2
+    {
+        display: none;
+    }
+    .container
+    {
+        margin: 16.5%;
+    }
+    .btnContainer
+    {
+        margin-left: -15%;
+    }
+    .ShopNowButton
+    {
+        margin-left: 170px;
+    }
+    .imgs
+    {
+        margin-left: 17.3%;
+    }
+    .Feature1, .Feature2
+    {
+        width: 17rem;
+    }
+    .FeaturedContainer
+    {
+        margin: 20px;
+    }
+    .FeaturedItems
+    {
+        margin-left: 5.4%;
+        width: 40rem;
+    }
+    .UserItems
+    {
+        display: none;
+    }
+    .MoreLinks
+    {
+        margin-top: -15%;
+    }
+    .Footer1
+    {
+        margin-top: -12%;
+    }
+    #FAQs
+    {
+        margin-top: 5%;
+    }
+    .Footer2
+    {
+        margin-right: 20px;
+        margin-top: -12px;
+    }
+    .Fb, .Insta, .Twitter
+    {
+        margin-top: 15%;
+        height: 5rem;
+        width: 5rem;
+    }
+    .Sitelogo
+    {
+        position: relative;
+        height: 100px;
+        width: 100px;
+        margin-left: 82%;
+        margin-top: -17%;
+    }  
 }
