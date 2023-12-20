@@ -1,0 +1,226 @@
+body {
+    height: max-content;
+    background: linear-gradient(100deg, #000000, #977506);
+    margin: 0;
+    font-size: 16px;
+}
+
+.hd1 {
+    position: absolute;
+    top: -6%;
+    left: 2%;
+    padding: 1rem 5%; /* Adjust padding */
+    color: rgb(173, 157, 157);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo1 {
+    position: absolute;
+    height: 10rem;
+    width: 100px;
+    top: -11%;
+    left: 25.3%;
+    padding: 1rem 5%; /* Adjust padding */
+    color: rgb(173, 157, 157);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Links (New&Featured, Men, Women, kids, & search) */
+/* Search Bar */
+.searchBox {
+    height: 30px;
+    display: flex;
+    cursor: pointer;
+    padding: 0.5rem 1rem; /* Adjust padding */
+    background: #fff;
+    align-items: center;
+    border-radius: 7px;
+}
+
+.searchBox input {
+    background: transparent;
+    outline: none;
+    border: none;
+}
+
+.SearchTab {
+    margin: 0.5rem;
+    padding: 0.3rem;
+    background: transparent;
+    height: 25px;
+}
+
+.navLinks {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem; /* Adjust margin */
+    margin-left: 1rem;
+    flex-wrap: wrap; /* Allow links to wrap on smaller screens */
+}
+
+.logo2 {
+    margin: -6.5rem;
+    padding: 1rem;
+    width: 200px;
+}
+
+.Links {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2em;
+    display: contents;
+}
+
+/* Image and Text */
+.Men1, .Men2, .Men3 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #6b4909;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: -85%;
+}
+
+.MenContainer {
+    display: flex;
+    position: absolute;
+    top: 25%;
+    left: 15%;
+}
+
+.MenShoes {
+    border-radius: 20px;
+    margin: 1rem;
+    height: 15rem;
+    width: 15rem;
+}
+
+.MenLinks {
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+
+.MenPrice {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/* Footer Section */
+.Footer {
+    margin-top: 13%;
+    margin-left: -1%;
+    background-color: #0c1013;
+    color: #ffffff;
+    width: 110%;
+    height: max-content;
+    padding: 1rem; /* Adjust padding */
+    box-sizing: border-box; /* Include padding and border in total width/height */
+}
+
+.FooterItems {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+}
+
+.Footer1 {
+    height: 40%;
+    line-height: 2rem;
+    font-size: 1.5rem;
+    margin: -5px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.MoreLinks {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 30%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.FooterLink2 {
+    color: #fff;
+    text-decoration: none;
+}
+
+.Footer2 {
+    display: block;
+    line-height: 2rem;
+    padding: 1rem;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.FooterImage {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Allow images to wrap on smaller screens */
+}
+
+.Fb, .Insta, .Twitter {
+    margin: 1rem;
+    height: 100px;
+    width: 100px;
+}
+
+.Footerlogo {
+    display: flex;
+    justify-content: center;
+    left: 20%;
+}
+
+.Sitelogo {
+    display: flex;
+    margin-top: -9rem;
+    margin-left: 70rem;
+    height: 10rem;
+    width: 9rem;
+}
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 768px) {
+    .hd1, .logo1, .navLinks, .Men1, .MenContainer, .Footer, .FooterItems, .Footer1, .MoreLinks, .Footer2, .FooterImage {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hd1, .logo1 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .logo1 {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .navLinks {
+        margin-top: 2rem;
+    }
+
+    .Men1, .MenContainer {
+        margin-left: 0;
+    }
+
+    .MenShoes {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .Footer {
+        width: 100%;
+        padding: 1rem;
+    }
+}
